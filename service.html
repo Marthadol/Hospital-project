@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Services | Banby Specialist Hospital</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="./images/hospitallogo.jpeg" alt="hospitallogo" />
+      </a>
+
+      <nav>
+        <ul class="nav-bar" id="nav-bar">
+          <li role="listitem"><a href="index.html">Home</a></li>
+          <li role="listitem"><a href="about.html">About</a></li>
+          <li role="listitem"><a href="contact.html">Contact</a></li>
+          <li role="listitem">
+            <a href="service.html" class="active">Services</a>
+          </li>
+          <li role="listitem"><a href="vaccination.html">Vaccination</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="service.html" class="cta">Book an Appointment</a>
+        <button id="hamburger-menu" onclick="toggleMenu()">&#9776;</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>Our Services At Banby Specialist Hospital</h1>
+        <p>
+          We offer 24/7 Emergency medical support,ensuring prompt professional
+          care when you need it most.our team of Specialis is always ready to
+          respond with Immediate treatment and guidance.
+        </p>
+        <div class="cta-hero">
+          <a href="service.html"
+            >Explore Our Services <i class="fas fa-chevron-right"></i
+          ></a>
+          <a href="Contact.html"
+            >Book an Appointment <i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="tag">Our Service</div>
+      <h2>Discover Our Range Of Exceptional Services</h2>
+
+      <div class="service-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <img src="images/about us.jpg" alt="Telemedicine" />
+          <div class="service-content">
+            <div class="service-icon">📞</div>
+            <h3>Telemedicine Consultations</h3>
+            <p>
+              Access healthcare from home with our secure, easy-to-use
+              telemedicine platform. Our expert doctors are available for
+              virtual consultations anytime, anywhere.
+            </p>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <img src="images/doctorphoto.jpg" alt="At-Home Services" />
+          <div class="service-content">
+            <div class="service-icon">🏥</div>
+            <h3>At-Home Healthcare Services</h3>
+            <p>
+              We offer 24/7 emergency medical support, ensuring prompt, personal
+              care when you need it most. Our team of specialists is always
+              ready to respond with immediate treatment and guidance.
+            </p>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <img src="images/doctor.jpg" alt="Health & Wellness Monitoring" />
+          <div class="service-content">
+            <div class="service-icon">📊</div>
+            <h3>Health & Wellness Monitoring Solutions</h3>
+            <p>
+              A service that tracks key health metrics via wearables/apps, with
+              professional monitoring for insights and early alerts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-container">
+      <h2 class="secondary-heading">Our Services</h2>
+      <div class="about-content">
+        <div class="about-card">
+          <i class="fa-brands fa-medrt"></i>
+          <h3 class="tertiary-heading">General Medicine</h3>
+          <p>Comprehensive diagnosis and treatment for all age groups.</p>
+        </div>
+
+        <div class="about-card">
+          <i class="fa-solid fa-user-doctor"></i>
+          <h3 class="tertiary-heading">Maternal & Child Care</h3>
+          <p>Safe delivery, antenatal, and pediatric services.</p>
+        </div>
+
+        <div class="about-card">
+          <i class="fa-solid fa-notes-medical"></i>
+          <h3 class="tertiary-heading">Emergency Care</h3>
+          <p>24/7 life-saving response and trauma care.</p>
+        </div>
+
+        <div class="about-card">
+          <i class="fa-solid fa-stethoscope"></i>
+          <h3 class="tertiary-heading">Surgical Services</h3>
+          <p>Skilled procedures with modern surgical equipment.</p>
+        </div>
+
+        <div class="about-card">
+          <i class="fa-solid fa-hospital"></i>
+          <h3 class="tertiary-heading">Diagnostic Lab</h3>
+          <p>Accurate tests and results from our in-house lab.</p>
+        </div>
+      </div>
+      <a href="service.html" class="cta"
+        >Get medical help <i class="fas fa-chevron-right"></i
+      ></a>
+    </section>
+
+    <section class="section-container">
+      <div>
+        <h2>Discover Our Range Of Exceptional Services</h2>
+        <p>Experience Best Healthcare services here</p>
+        <div class="cta-hero">
+          <a href="service.html" style="background-color: #002147"
+            >Get medical help</a
+          >
+          <a href="contact.html"
+            >Book an Appointment <i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </div>
+
+      <div>
+        <img src="images/footer-removebg-preview.png" alt="image" />
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-section">
+          <div class="footer-newletter">
+            <a href="index.html">
+              <img src="./images/hospitallogo.jpeg" alt="hospitallogo" />
+            </a>
+            <p>
+              Subscribe to our newsletter to get regular health tips, updates,
+              and special offers
+            </p>
+            <form class="newsletter">
+              <p>Join Our Newsletter</p>
+              <input type="text" class="Email" placeholder="Email" />
+              <button type="submit" class="submit">Join Now</button>
+            </form>
+          </div>
+
+          <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>No . 123 Health Avenue, City Name, Nigeria</p>
+            <p>Email: info@banbyhospital.ng</p>
+            <p>Phone: +234 9018395248</p>
+          </div>
+
+          <div class="footer-links">
+            <h3>Helpful Links</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <h6>&copy; Banby Specialist Hospital 2025</h6>
+          <div>
+            Follow us:<i class="fa-brands fa-facebook"></i
+            ><i class="fa-brands fa-x-twitter"></i
+            ><i class="fa-brands fa-linkedin"></i
+            ><i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
