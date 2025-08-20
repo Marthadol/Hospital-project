@@ -899,7 +899,7 @@ input{
 
 
 /* mobile view */
-@media (max-width: 475px) {
+@media (max-width: 480px) {
   .hero {
     height: 70vh;
   }
@@ -910,7 +910,11 @@ input{
 
   .nav-bar .active{
     width: 50%;
-    padding-block: 10rem;
+    /* padding-block: 10rem; */
+  }
+
+  .header-cta a {
+    padding-block: 1rem;
   }
   
   .secondary-heading {
