@@ -239,8 +239,8 @@ header #hamburger-menu {
 }
 
 .cta-hero {
-  /* font-size: 1.2rem; */
-  /* margin-block-start: 1rem; */
+  /* font-size: 1.2rem; 
+  margin-block-start: 1rem; */
 }
 
 .cta-hero > a {
@@ -876,7 +876,7 @@ input{
 
   .cta-hero a {
     display: block;
-    margin-block-end: 2rem;
+    margin-block-end: 1rem;
   }
 
    .footer-section{
