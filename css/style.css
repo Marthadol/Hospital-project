@@ -240,7 +240,7 @@ header #hamburger-menu {
 
 .cta-hero {
   /* font-size: 1.2rem; */
-  margin-block-start: 1rem;
+  /* margin-block-start: 1rem; */
 }
 
 .cta-hero > a {
@@ -385,8 +385,6 @@ header #hamburger-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  padding-block-start: 2rem;
 }
 
 .section-container h2 {
@@ -395,8 +393,8 @@ header #hamburger-menu {
 }
 
 .section-container p {
-  padding-block: 0.1rem;
   font-size: 1.2rem;
+  margin-block-end: 2rem;
 }
 
 .section-container img {
@@ -878,7 +876,7 @@ input{
 
   .cta-hero a {
     display: block;
-    margin-block: 0.5rem;
+    margin-block-end: 2rem;
   }
 
    .footer-section{
