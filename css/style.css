@@ -912,6 +912,11 @@ input{
     height: 70vh;
   }
 
+  .hero{
+    width: 100%;
+  }
+
+
   .section {
     margin-block: 0;
   }
