@@ -916,6 +916,10 @@ input{
     width: 100%;
   }
 
+  .header-cta a{
+    display: none;
+  }
+
 
   .section {
     margin-block: 0;
