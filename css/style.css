@@ -835,6 +835,14 @@ input{
     left: 0;
   }
 
+  .services {
+    padding-block-start: 3rem;
+  }
+
+  .section-container {
+    margin-block-start: 2rem;
+  }
+
    .nav-bar.active{
     display: flex;
     align-items: center;
