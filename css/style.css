@@ -908,9 +908,9 @@ input{
 
 /* mobile view */
 @media (max-width: 480px) {
-  /* .hero {
-    height: 70vh;
-  } */
+  .hero {
+    height: 100vh;
+  }
 
   .hero{
     width: 100%;
